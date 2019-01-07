@@ -119,7 +119,7 @@ void parse_shm_size(const char* shm_size_to_parse)
     shm_size += offset;
 
     ASSERT(shm_size > 0);
-    snprintf(shm_size_str, SHM_SIZE_STR_LEN, "%zu", shm_size / GIGABYTE);
+   //  snprintf(shm_size_str, SHM_SIZE_STR_LEN, "%zu", shm_size / GIGABYTE);
     DEBUG_PRINT("shm_size %ld, total_size %ld\n", shm_size, total_size);
 }
 
